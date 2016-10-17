@@ -484,6 +484,7 @@
 				1753B4601DAECC1B00E5D40F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1753B4611DAECC1B00E5D40F /* Build configuration list for PBXNativeTarget "SquoirTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +493,7 @@
 				1753B4631DAECC1B00E5D40F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1753B4641DAECC1B00E5D40F /* Build configuration list for PBXNativeTarget "SquoirUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +502,7 @@
 				1753B4661DAECC1B00E5D40F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
