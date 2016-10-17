@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1753B43A1DAECC1B00E5D40F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753B4391DAECC1B00E5D40F /* AppDelegate.swift */; };
+		1753B43C1DAECC1B00E5D40F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753B43B1DAECC1B00E5D40F /* ViewController.swift */; };
+		1753B43F1DAECC1B00E5D40F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1753B43D1DAECC1B00E5D40F /* Main.storyboard */; };
+		1753B4411DAECC1B00E5D40F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1753B4401DAECC1B00E5D40F /* Assets.xcassets */; };
+		1753B4441DAECC1B00E5D40F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1753B4421DAECC1B00E5D40F /* LaunchScreen.storyboard */; };
+		1753B44F1DAECC1B00E5D40F /* SquoirTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753B44E1DAECC1B00E5D40F /* SquoirTests.swift */; };
+		1753B45A1DAECC1B00E5D40F /* SquoirUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753B4591DAECC1B00E5D40F /* SquoirUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1753B44B1DAECC1B00E5D40F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1753B42E1DAECC1B00E5D40F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1753B4351DAECC1B00E5D40F;
+			remoteInfo = Squoir;
+		};
+		1753B4561DAECC1B00E5D40F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1753B42E1DAECC1B00E5D40F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1753B4351DAECC1B00E5D40F;
+			remoteInfo = Squoir;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1753B4361DAECC1B00E5D40F /* Squoir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Squoir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1753B4391DAECC1B00E5D40F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1753B43B1DAECC1B00E5D40F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1753B43E1DAECC1B00E5D40F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1753B4401DAECC1B00E5D40F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1753B4431DAECC1B00E5D40F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1753B4451DAECC1B00E5D40F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1753B44A1DAECC1B00E5D40F /* SquoirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquoirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1753B44E1DAECC1B00E5D40F /* SquoirTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquoirTests.swift; sourceTree = "<group>"; };
+		1753B4501DAECC1B00E5D40F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1753B4551DAECC1B00E5D40F /* SquoirUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquoirUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1753B4591DAECC1B00E5D40F /* SquoirUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquoirUITests.swift; sourceTree = "<group>"; };
+		1753B45B1DAECC1B00E5D40F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1753B4331DAECC1B00E5D40F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1753B4471DAECC1B00E5D40F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1753B4521DAECC1B00E5D40F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1753B42D1DAECC1B00E5D40F = {
+			isa = PBXGroup;
+			children = (
+				1753B4381DAECC1B00E5D40F /* Squoir */,
+				1753B44D1DAECC1B00E5D40F /* SquoirTests */,
+				1753B4581DAECC1B00E5D40F /* SquoirUITests */,
+				1753B4371DAECC1B00E5D40F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1753B4371DAECC1B00E5D40F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1753B4361DAECC1B00E5D40F /* Squoir.app */,
+				1753B44A1DAECC1B00E5D40F /* SquoirTests.xctest */,
+				1753B4551DAECC1B00E5D40F /* SquoirUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1753B4381DAECC1B00E5D40F /* Squoir */ = {
+			isa = PBXGroup;
+			children = (
+				1753B4391DAECC1B00E5D40F /* AppDelegate.swift */,
+				1753B43B1DAECC1B00E5D40F /* ViewController.swift */,
+				1753B43D1DAECC1B00E5D40F /* Main.storyboard */,
+				1753B4401DAECC1B00E5D40F /* Assets.xcassets */,
+				1753B4421DAECC1B00E5D40F /* LaunchScreen.storyboard */,
+				1753B4451DAECC1B00E5D40F /* Info.plist */,
+			);
+			path = Squoir;
+			sourceTree = "<group>";
+		};
+		1753B44D1DAECC1B00E5D40F /* SquoirTests */ = {
+			isa = PBXGroup;
+			children = (
+				1753B44E1DAECC1B00E5D40F /* SquoirTests.swift */,
+				1753B4501DAECC1B00E5D40F /* Info.plist */,
+			);
+			path = SquoirTests;
+			sourceTree = "<group>";
+		};
+		1753B4581DAECC1B00E5D40F /* SquoirUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1753B4591DAECC1B00E5D40F /* SquoirUITests.swift */,
+				1753B45B1DAECC1B00E5D40F /* Info.plist */,
+			);
+			path = SquoirUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1753B4351DAECC1B00E5D40F /* Squoir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1753B45E1DAECC1B00E5D40F /* Build configuration list for PBXNativeTarget "Squoir" */;
+			buildPhases = (
+				1753B4321DAECC1B00E5D40F /* Sources */,
+				1753B4331DAECC1B00E5D40F /* Frameworks */,
+				1753B4341DAECC1B00E5D40F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Squoir;
+			productName = Squoir;
+			productReference = 1753B4361DAECC1B00E5D40F /* Squoir.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1753B4491DAECC1B00E5D40F /* SquoirTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1753B4611DAECC1B00E5D40F /* Build configuration list for PBXNativeTarget "SquoirTests" */;
+			buildPhases = (
+				1753B4461DAECC1B00E5D40F /* Sources */,
+				1753B4471DAECC1B00E5D40F /* Frameworks */,
+				1753B4481DAECC1B00E5D40F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1753B44C1DAECC1B00E5D40F /* PBXTargetDependency */,
+			);
+			name = SquoirTests;
+			productName = SquoirTests;
+			productReference = 1753B44A1DAECC1B00E5D40F /* SquoirTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1753B4541DAECC1B00E5D40F /* SquoirUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1753B4641DAECC1B00E5D40F /* Build configuration list for PBXNativeTarget "SquoirUITests" */;
+			buildPhases = (
+				1753B4511DAECC1B00E5D40F /* Sources */,
+				1753B4521DAECC1B00E5D40F /* Frameworks */,
+				1753B4531DAECC1B00E5D40F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1753B4571DAECC1B00E5D40F /* PBXTargetDependency */,
+			);
+			name = SquoirUITests;
+			productName = SquoirUITests;
+			productReference = 1753B4551DAECC1B00E5D40F /* SquoirUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1753B42E1DAECC1B00E5D40F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Arlix Technologies";
+				TargetAttributes = {
+					1753B4351DAECC1B00E5D40F = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					1753B4491DAECC1B00E5D40F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1753B4351DAECC1B00E5D40F;
+					};
+					1753B4541DAECC1B00E5D40F = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1753B4351DAECC1B00E5D40F;
+					};
+				};
+			};
+			buildConfigurationList = 1753B4311DAECC1B00E5D40F /* Build configuration list for PBXProject "Squoir" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1753B42D1DAECC1B00E5D40F;
+			productRefGroup = 1753B4371DAECC1B00E5D40F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1753B4351DAECC1B00E5D40F /* Squoir */,
+				1753B4491DAECC1B00E5D40F /* SquoirTests */,
+				1753B4541DAECC1B00E5D40F /* SquoirUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1753B4341DAECC1B00E5D40F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1753B4441DAECC1B00E5D40F /* LaunchScreen.storyboard in Resources */,
+				1753B4411DAECC1B00E5D40F /* Assets.xcassets in Resources */,
+				1753B43F1DAECC1B00E5D40F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1753B4481DAECC1B00E5D40F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1753B4531DAECC1B00E5D40F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1753B4321DAECC1B00E5D40F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1753B43C1DAECC1B00E5D40F /* ViewController.swift in Sources */,
+				1753B43A1DAECC1B00E5D40F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1753B4461DAECC1B00E5D40F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1753B44F1DAECC1B00E5D40F /* SquoirTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1753B4511DAECC1B00E5D40F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1753B45A1DAECC1B00E5D40F /* SquoirUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1753B44C1DAECC1B00E5D40F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1753B4351DAECC1B00E5D40F /* Squoir */;
+			targetProxy = 1753B44B1DAECC1B00E5D40F /* PBXContainerItemProxy */;
+		};
+		1753B4571DAECC1B00E5D40F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1753B4351DAECC1B00E5D40F /* Squoir */;
+			targetProxy = 1753B4561DAECC1B00E5D40F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1753B43D1DAECC1B00E5D40F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1753B43E1DAECC1B00E5D40F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1753B4421DAECC1B00E5D40F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1753B4431DAECC1B00E5D40F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1753B45C1DAECC1B00E5D40F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1753B45D1DAECC1B00E5D40F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1753B45F1DAECC1B00E5D40F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Squoir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.arlix.Squoir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1753B4601DAECC1B00E5D40F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Squoir/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.arlix.Squoir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1753B4621DAECC1B00E5D40F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SquoirTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.arlix.SquoirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Squoir.app/Squoir";
+			};
+			name = Debug;
+		};
+		1753B4631DAECC1B00E5D40F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SquoirTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.arlix.SquoirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Squoir.app/Squoir";
+			};
+			name = Release;
+		};
+		1753B4651DAECC1B00E5D40F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SquoirUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.arlix.SquoirUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Squoir;
+			};
+			name = Debug;
+		};
+		1753B4661DAECC1B00E5D40F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SquoirUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.arlix.SquoirUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Squoir;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1753B4311DAECC1B00E5D40F /* Build configuration list for PBXProject "Squoir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1753B45C1DAECC1B00E5D40F /* Debug */,
+				1753B45D1DAECC1B00E5D40F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1753B45E1DAECC1B00E5D40F /* Build configuration list for PBXNativeTarget "Squoir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1753B45F1DAECC1B00E5D40F /* Debug */,
+				1753B4601DAECC1B00E5D40F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1753B4611DAECC1B00E5D40F /* Build configuration list for PBXNativeTarget "SquoirTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1753B4621DAECC1B00E5D40F /* Debug */,
+				1753B4631DAECC1B00E5D40F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1753B4641DAECC1B00E5D40F /* Build configuration list for PBXNativeTarget "SquoirUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1753B4651DAECC1B00E5D40F /* Debug */,
+				1753B4661DAECC1B00E5D40F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1753B42E1DAECC1B00E5D40F /* Project object */;
+}
