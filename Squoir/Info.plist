@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Squoir will save photos in the Photo Library.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Squoir needs the microphone to record audio with Live Photos.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Squoir needs the camera to take photos. Duh!</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>

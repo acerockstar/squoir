@@ -1,28 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="nc9-TB-8xt">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Squoir-->
-        <scene sceneID="tne-QT-ifu">
+        <!--View Controller-->
+        <scene sceneID="RE2-6x-Ku5">
             <objects>
-                <viewController title="Squoir" id="BYZ-38-t0r" customClass="ViewController" customModule="Squoir" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="nc9-TB-8xt" customClass="ViewController" customModule="Squoir" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE" colorLabel="IBBuiltInLabel-Gray"/>
+                        <viewControllerLayoutGuide type="top" id="aoJ-1l-9KG"/>
+                        <viewControllerLayoutGuide type="bottom" id="pXx-53-nUg"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="ec5-A3-THf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EVb-mf-SXv" customClass="CameraPreviewView" customModule="Squoir" customModuleProvider="target">
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pew-ZO-7kk">
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="fX7-lb-g6Q">
+                                    <frame key="frameInset"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Vd7-nF-dGQ">
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aAj-J3-Oeq">
+                                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
+                                                    <state key="normal" title="Take Photo!"/>
+                                                    <connections>
+                                                        <action selector="handleShutterButtonTapped:" destination="nc9-TB-8xt" eventType="touchUpInside" id="7PF-Zc-NrT"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="Vd7-nF-dGQ" secondAttribute="bottom" constant="20" id="157-Vi-e8K"/>
+                                        <constraint firstItem="Vd7-nF-dGQ" firstAttribute="top" secondItem="fX7-lb-g6Q" secondAttribute="top" constant="10" id="MXp-iH-Kh9"/>
+                                        <constraint firstItem="Vd7-nF-dGQ" firstAttribute="centerX" secondItem="fX7-lb-g6Q" secondAttribute="centerX" id="adS-30-Wz4"/>
+                                        <constraint firstItem="Vd7-nF-dGQ" firstAttribute="centerX" secondItem="fX7-lb-g6Q" secondAttribute="centerX" id="zSp-Pe-w15"/>
+                                    </constraints>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="66" id="eaZ-D4-67x"/>
+                                </constraints>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.96862745289999996" green="0.78039217000000005" blue="0.34509804840000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="EVb-mf-SXv" secondAttribute="trailing" id="0JI-LZ-bMe"/>
+                            <constraint firstItem="EVb-mf-SXv" firstAttribute="bottom" secondItem="pXx-53-nUg" secondAttribute="top" id="4rh-I5-2X8"/>
+                            <constraint firstItem="pXx-53-nUg" firstAttribute="top" secondItem="pew-ZO-7kk" secondAttribute="bottom" id="8ZS-zv-CWb"/>
+                            <constraint firstItem="pew-ZO-7kk" firstAttribute="leading" secondItem="ec5-A3-THf" secondAttribute="leading" id="PHl-im-5U2"/>
+                            <constraint firstItem="EVb-mf-SXv" firstAttribute="top" secondItem="ec5-A3-THf" secondAttribute="top" id="VMl-E4-NkV"/>
+                            <constraint firstItem="EVb-mf-SXv" firstAttribute="leading" secondItem="ec5-A3-THf" secondAttribute="leading" id="XeY-xD-hL2"/>
+                            <constraint firstAttribute="trailing" secondItem="EVb-mf-SXv" secondAttribute="trailing" id="dVE-9d-gng"/>
+                            <constraint firstAttribute="trailing" secondItem="pew-ZO-7kk" secondAttribute="trailing" id="dwX-by-szh"/>
+                            <constraint firstItem="EVb-mf-SXv" firstAttribute="leading" secondItem="ec5-A3-THf" secondAttribute="leading" id="gQB-8b-r0e"/>
+                            <constraint firstItem="EVb-mf-SXv" firstAttribute="top" secondItem="ec5-A3-THf" secondAttribute="top" id="uUq-IX-nMb"/>
+                        </constraints>
                     </view>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="cameraPreviewView" destination="EVb-mf-SXv" id="TWa-fS-lYM"/>
+                        <outlet property="shutterButton" destination="aAj-J3-Oeq" id="piQ-8c-013"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d3e-n4-OAE" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

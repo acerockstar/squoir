@@ -14,6 +14,8 @@
 		1753B4441DAECC1B00E5D40F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1753B4421DAECC1B00E5D40F /* LaunchScreen.storyboard */; };
 		1753B44F1DAECC1B00E5D40F /* SquoirTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753B44E1DAECC1B00E5D40F /* SquoirTests.swift */; };
 		1753B45A1DAECC1B00E5D40F /* SquoirUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753B4591DAECC1B00E5D40F /* SquoirUITests.swift */; };
+		C50A63451DB66B5C00712049 /* PhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A63441DB66B5C00712049 /* PhotoCaptureDelegate.swift */; };
+		C50A63471DB66B7D00712049 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A63461DB66B7D00712049 /* CameraPreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		1753B4551DAECC1B00E5D40F /* SquoirUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquoirUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1753B4591DAECC1B00E5D40F /* SquoirUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquoirUITests.swift; sourceTree = "<group>"; };
 		1753B45B1DAECC1B00E5D40F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C50A63441DB66B5C00712049 /* PhotoCaptureDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCaptureDelegate.swift; sourceTree = "<group>"; };
+		C50A63461DB66B7D00712049 /* CameraPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				1753B4401DAECC1B00E5D40F /* Assets.xcassets */,
 				1753B4421DAECC1B00E5D40F /* LaunchScreen.storyboard */,
 				1753B4451DAECC1B00E5D40F /* Info.plist */,
+				C50A63441DB66B5C00712049 /* PhotoCaptureDelegate.swift */,
+				C50A63461DB66B7D00712049 /* CameraPreviewView.swift */,
 			);
 			path = Squoir;
 			sourceTree = "<group>";
@@ -193,7 +199,7 @@
 				TargetAttributes = {
 					1753B4351DAECC1B00E5D40F = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = S38PJCF5P8;
+						DevelopmentTeam = S85YN963RT;
 						LastSwiftMigration = 0800;
 					};
 					1753B4491DAECC1B00E5D40F = {
@@ -260,6 +266,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C50A63471DB66B7D00712049 /* CameraPreviewView.swift in Sources */,
+				C50A63451DB66B5C00712049 /* PhotoCaptureDelegate.swift in Sources */,
 				1753B43C1DAECC1B00E5D40F /* ViewController.swift in Sources */,
 				1753B43A1DAECC1B00E5D40F /* AppDelegate.swift in Sources */,
 			);
@@ -405,12 +413,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = S38PJCF5P8;
+				DEVELOPMENT_TEAM = S85YN963RT;
 				INFOPLIST_FILE = Squoir/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.arlix.Squoir;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scau.Squoir;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -418,12 +428,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = S38PJCF5P8;
+				DEVELOPMENT_TEAM = S85YN963RT;
 				INFOPLIST_FILE = Squoir/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.arlix.Squoir;
+				PRODUCT_BUNDLE_IDENTIFIER = com.scau.Squoir;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
