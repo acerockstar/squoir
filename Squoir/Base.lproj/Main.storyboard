@@ -6,10 +6,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Squoir-->
         <scene sceneID="RE2-6x-Ku5">
             <objects>
-                <viewController id="nc9-TB-8xt" customClass="ViewController" customModule="Squoir" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Squoir" id="nc9-TB-8xt" customClass="ViewController" customModule="Squoir" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aoJ-1l-9KG"/>
                         <viewControllerLayoutGuide type="bottom" id="pXx-53-nUg"/>
@@ -66,6 +66,8 @@
                             <constraint firstItem="EVb-mf-SXv" firstAttribute="top" secondItem="ec5-A3-THf" secondAttribute="top" id="uUq-IX-nMb"/>
                         </constraints>
                     </view>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
                     <connections>
                         <outlet property="cameraPreviewView" destination="EVb-mf-SXv" id="TWa-fS-lYM"/>
                         <outlet property="shutterButton" destination="aAj-J3-Oeq" id="piQ-8c-013"/>

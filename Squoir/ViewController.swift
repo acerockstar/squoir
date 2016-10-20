@@ -45,7 +45,7 @@ class ViewController: UIViewController {
         sessionQueue.suspend()
         AVCaptureDevice.requestAccess(forMediaType: AVMediaTypeVideo) { [unowned self] success in
             if !success {
-                print("Error: PhotoMe requires access to the camera and the microphone")
+                print("Error: Squoir requires access to the camera and the microphone")
                 return
             }
             self.sessionQueue.resume()
