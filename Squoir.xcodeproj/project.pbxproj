@@ -7,68 +7,104 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1753B43A1DAECC1B00E5D40F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753B4391DAECC1B00E5D40F /* AppDelegate.swift */; };
-		1753B43C1DAECC1B00E5D40F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753B43B1DAECC1B00E5D40F /* ViewController.swift */; };
-		1753B43F1DAECC1B00E5D40F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1753B43D1DAECC1B00E5D40F /* Main.storyboard */; };
-		1753B4411DAECC1B00E5D40F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1753B4401DAECC1B00E5D40F /* Assets.xcassets */; };
-		1753B4441DAECC1B00E5D40F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1753B4421DAECC1B00E5D40F /* LaunchScreen.storyboard */; };
-		1753B44F1DAECC1B00E5D40F /* SquoirTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753B44E1DAECC1B00E5D40F /* SquoirTests.swift */; };
-		1753B45A1DAECC1B00E5D40F /* SquoirUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1753B4591DAECC1B00E5D40F /* SquoirUITests.swift */; };
-		C50A63451DB66B5C00712049 /* PhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A63441DB66B5C00712049 /* PhotoCaptureDelegate.swift */; };
-		C50A63471DB66B7D00712049 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A63461DB66B7D00712049 /* CameraPreviewView.swift */; };
+		5E97D4231DF7693000136369 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E97D4221DF7693000136369 /* AppDelegate.swift */; };
+		5E97D4251DF7693000136369 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E97D4241DF7693000136369 /* ViewController.swift */; };
+		5E97D4281DF7693000136369 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E97D4261DF7693000136369 /* Main.storyboard */; };
+		5E97D42A1DF7693000136369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E97D4291DF7693000136369 /* Assets.xcassets */; };
+		5E97D42D1DF7693000136369 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E97D42B1DF7693000136369 /* LaunchScreen.storyboard */; };
+		5E97D4381DF7693000136369 /* SquoirTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E97D4371DF7693000136369 /* SquoirTests.swift */; };
+		5E97D4431DF7693000136369 /* SquoirUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E97D4421DF7693000136369 /* SquoirUITests.swift */; };
+		5E97D4671DF76AC600136369 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E97D4641DF76AB000136369 /* GPUImage.framework */; };
+		5E97D4691DF76ADA00136369 /* GPUImage.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E97D4641DF76AB000136369 /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5EBC5AAA1DFCA73300ABB88A /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBC5AA91DFCA73300ABB88A /* SnapshotHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1753B44B1DAECC1B00E5D40F /* PBXContainerItemProxy */ = {
+		5E97D4341DF7693000136369 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1753B42E1DAECC1B00E5D40F /* Project object */;
+			containerPortal = 5E97D4171DF7692F00136369 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1753B4351DAECC1B00E5D40F;
+			remoteGlobalIDString = 5E97D41E1DF7693000136369;
 			remoteInfo = Squoir;
 		};
-		1753B4561DAECC1B00E5D40F /* PBXContainerItemProxy */ = {
+		5E97D43F1DF7693000136369 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1753B42E1DAECC1B00E5D40F /* Project object */;
+			containerPortal = 5E97D4171DF7692F00136369 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1753B4351DAECC1B00E5D40F;
+			remoteGlobalIDString = 5E97D41E1DF7693000136369;
 			remoteInfo = Squoir;
+		};
+		5E97D4611DF76AB000136369 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E97D45B1DF76AB000136369 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF1A33414DDB1EC00852800;
+			remoteInfo = GPUImage;
+		};
+		5E97D4631DF76AB000136369 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E97D45B1DF76AB000136369 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCE209E51943F20C002FEED8;
+			remoteInfo = GPUImageFramework;
+		};
+		5E97D4651DF76AB600136369 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E97D45B1DF76AB000136369 /* GPUImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE209E41943F20C002FEED8;
+			remoteInfo = GPUImageFramework;
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5E97D4681DF76ACD00136369 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5E97D4691DF76ADA00136369 /* GPUImage.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		1753B4361DAECC1B00E5D40F /* Squoir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Squoir.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1753B4391DAECC1B00E5D40F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1753B43B1DAECC1B00E5D40F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1753B43E1DAECC1B00E5D40F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1753B4401DAECC1B00E5D40F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1753B4431DAECC1B00E5D40F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1753B4451DAECC1B00E5D40F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1753B44A1DAECC1B00E5D40F /* SquoirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquoirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1753B44E1DAECC1B00E5D40F /* SquoirTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquoirTests.swift; sourceTree = "<group>"; };
-		1753B4501DAECC1B00E5D40F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1753B4551DAECC1B00E5D40F /* SquoirUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquoirUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1753B4591DAECC1B00E5D40F /* SquoirUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquoirUITests.swift; sourceTree = "<group>"; };
-		1753B45B1DAECC1B00E5D40F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C50A63441DB66B5C00712049 /* PhotoCaptureDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCaptureDelegate.swift; sourceTree = "<group>"; };
-		C50A63461DB66B7D00712049 /* CameraPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		5E97D41F1DF7693000136369 /* Squoir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Squoir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E97D4221DF7693000136369 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E97D4241DF7693000136369 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E97D4271DF7693000136369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E97D4291DF7693000136369 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E97D42C1DF7693000136369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E97D42E1DF7693000136369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E97D4331DF7693000136369 /* SquoirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquoirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E97D4371DF7693000136369 /* SquoirTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquoirTests.swift; sourceTree = "<group>"; };
+		5E97D4391DF7693000136369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E97D43E1DF7693000136369 /* SquoirUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquoirUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E97D4421DF7693000136369 /* SquoirUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquoirUITests.swift; sourceTree = "<group>"; };
+		5E97D4441DF7693000136369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E97D45B1DF76AB000136369 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = "../../../../Downloads/GPUImage-master-5/framework/GPUImage.xcodeproj"; sourceTree = "<group>"; };
+		5EBC5AA91DFCA73300ABB88A /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1753B4331DAECC1B00E5D40F /* Frameworks */ = {
+		5E97D41C1DF7693000136369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E97D4671DF76AC600136369 /* GPUImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E97D4301DF7693000136369 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1753B4471DAECC1B00E5D40F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1753B4521DAECC1B00E5D40F /* Frameworks */ = {
+		5E97D43B1DF7693000136369 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,143 +114,156 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1753B42D1DAECC1B00E5D40F = {
+		5E97D4161DF7692F00136369 = {
 			isa = PBXGroup;
 			children = (
-				1753B4381DAECC1B00E5D40F /* Squoir */,
-				1753B44D1DAECC1B00E5D40F /* SquoirTests */,
-				1753B4581DAECC1B00E5D40F /* SquoirUITests */,
-				1753B4371DAECC1B00E5D40F /* Products */,
+				5E97D45B1DF76AB000136369 /* GPUImage.xcodeproj */,
+				5E97D4211DF7693000136369 /* Squoir */,
+				5E97D4361DF7693000136369 /* SquoirTests */,
+				5E97D4411DF7693000136369 /* SquoirUITests */,
+				5E97D4201DF7693000136369 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1753B4371DAECC1B00E5D40F /* Products */ = {
+		5E97D4201DF7693000136369 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1753B4361DAECC1B00E5D40F /* Squoir.app */,
-				1753B44A1DAECC1B00E5D40F /* SquoirTests.xctest */,
-				1753B4551DAECC1B00E5D40F /* SquoirUITests.xctest */,
+				5E97D41F1DF7693000136369 /* Squoir.app */,
+				5E97D4331DF7693000136369 /* SquoirTests.xctest */,
+				5E97D43E1DF7693000136369 /* SquoirUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1753B4381DAECC1B00E5D40F /* Squoir */ = {
+		5E97D4211DF7693000136369 /* Squoir */ = {
 			isa = PBXGroup;
 			children = (
-				1753B4391DAECC1B00E5D40F /* AppDelegate.swift */,
-				1753B43B1DAECC1B00E5D40F /* ViewController.swift */,
-				1753B43D1DAECC1B00E5D40F /* Main.storyboard */,
-				1753B4401DAECC1B00E5D40F /* Assets.xcassets */,
-				1753B4421DAECC1B00E5D40F /* LaunchScreen.storyboard */,
-				1753B4451DAECC1B00E5D40F /* Info.plist */,
-				C50A63441DB66B5C00712049 /* PhotoCaptureDelegate.swift */,
-				C50A63461DB66B7D00712049 /* CameraPreviewView.swift */,
+				5E97D4221DF7693000136369 /* AppDelegate.swift */,
+				5E97D4241DF7693000136369 /* ViewController.swift */,
+				5E97D4261DF7693000136369 /* Main.storyboard */,
+				5E97D4291DF7693000136369 /* Assets.xcassets */,
+				5E97D42B1DF7693000136369 /* LaunchScreen.storyboard */,
+				5E97D42E1DF7693000136369 /* Info.plist */,
 			);
 			path = Squoir;
 			sourceTree = "<group>";
 		};
-		1753B44D1DAECC1B00E5D40F /* SquoirTests */ = {
+		5E97D4361DF7693000136369 /* SquoirTests */ = {
 			isa = PBXGroup;
 			children = (
-				1753B44E1DAECC1B00E5D40F /* SquoirTests.swift */,
-				1753B4501DAECC1B00E5D40F /* Info.plist */,
+				5E97D4371DF7693000136369 /* SquoirTests.swift */,
+				5E97D4391DF7693000136369 /* Info.plist */,
 			);
 			path = SquoirTests;
 			sourceTree = "<group>";
 		};
-		1753B4581DAECC1B00E5D40F /* SquoirUITests */ = {
+		5E97D4411DF7693000136369 /* SquoirUITests */ = {
 			isa = PBXGroup;
 			children = (
-				1753B4591DAECC1B00E5D40F /* SquoirUITests.swift */,
-				1753B45B1DAECC1B00E5D40F /* Info.plist */,
+				5E97D4421DF7693000136369 /* SquoirUITests.swift */,
+				5EBC5AA91DFCA73300ABB88A /* SnapshotHelper.swift */,
+				5E97D4441DF7693000136369 /* Info.plist */,
 			);
 			path = SquoirUITests;
+			sourceTree = "<group>";
+		};
+		5E97D45C1DF76AB000136369 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E97D4621DF76AB000136369 /* libGPUImage.a */,
+				5E97D4641DF76AB000136369 /* GPUImage.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1753B4351DAECC1B00E5D40F /* Squoir */ = {
+		5E97D41E1DF7693000136369 /* Squoir */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1753B45E1DAECC1B00E5D40F /* Build configuration list for PBXNativeTarget "Squoir" */;
+			buildConfigurationList = 5E97D4471DF7693000136369 /* Build configuration list for PBXNativeTarget "Squoir" */;
 			buildPhases = (
-				1753B4321DAECC1B00E5D40F /* Sources */,
-				1753B4331DAECC1B00E5D40F /* Frameworks */,
-				1753B4341DAECC1B00E5D40F /* Resources */,
+				5E97D41B1DF7693000136369 /* Sources */,
+				5E97D41C1DF7693000136369 /* Frameworks */,
+				5E97D41D1DF7693000136369 /* Resources */,
+				5E97D4681DF76ACD00136369 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5E97D4661DF76AB600136369 /* PBXTargetDependency */,
 			);
 			name = Squoir;
 			productName = Squoir;
-			productReference = 1753B4361DAECC1B00E5D40F /* Squoir.app */;
+			productReference = 5E97D41F1DF7693000136369 /* Squoir.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1753B4491DAECC1B00E5D40F /* SquoirTests */ = {
+		5E97D4321DF7693000136369 /* SquoirTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1753B4611DAECC1B00E5D40F /* Build configuration list for PBXNativeTarget "SquoirTests" */;
+			buildConfigurationList = 5E97D44A1DF7693000136369 /* Build configuration list for PBXNativeTarget "SquoirTests" */;
 			buildPhases = (
-				1753B4461DAECC1B00E5D40F /* Sources */,
-				1753B4471DAECC1B00E5D40F /* Frameworks */,
-				1753B4481DAECC1B00E5D40F /* Resources */,
+				5E97D42F1DF7693000136369 /* Sources */,
+				5E97D4301DF7693000136369 /* Frameworks */,
+				5E97D4311DF7693000136369 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1753B44C1DAECC1B00E5D40F /* PBXTargetDependency */,
+				5E97D4351DF7693000136369 /* PBXTargetDependency */,
 			);
 			name = SquoirTests;
 			productName = SquoirTests;
-			productReference = 1753B44A1DAECC1B00E5D40F /* SquoirTests.xctest */;
+			productReference = 5E97D4331DF7693000136369 /* SquoirTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1753B4541DAECC1B00E5D40F /* SquoirUITests */ = {
+		5E97D43D1DF7693000136369 /* SquoirUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1753B4641DAECC1B00E5D40F /* Build configuration list for PBXNativeTarget "SquoirUITests" */;
+			buildConfigurationList = 5E97D44D1DF7693000136369 /* Build configuration list for PBXNativeTarget "SquoirUITests" */;
 			buildPhases = (
-				1753B4511DAECC1B00E5D40F /* Sources */,
-				1753B4521DAECC1B00E5D40F /* Frameworks */,
-				1753B4531DAECC1B00E5D40F /* Resources */,
+				5E97D43A1DF7693000136369 /* Sources */,
+				5E97D43B1DF7693000136369 /* Frameworks */,
+				5E97D43C1DF7693000136369 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1753B4571DAECC1B00E5D40F /* PBXTargetDependency */,
+				5E97D4401DF7693000136369 /* PBXTargetDependency */,
 			);
 			name = SquoirUITests;
 			productName = SquoirUITests;
-			productReference = 1753B4551DAECC1B00E5D40F /* SquoirUITests.xctest */;
+			productReference = 5E97D43E1DF7693000136369 /* SquoirUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1753B42E1DAECC1B00E5D40F /* Project object */ = {
+		5E97D4171DF7692F00136369 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = "Arlix Technologies";
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "George Turner";
 				TargetAttributes = {
-					1753B4351DAECC1B00E5D40F = {
-						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = S85YN963RT;
-						LastSwiftMigration = 0800;
+					5E97D41E1DF7693000136369 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = A96T689RCU;
+						ProvisioningStyle = Automatic;
 					};
-					1753B4491DAECC1B00E5D40F = {
-						CreatedOnToolsVersion = 7.3;
-						LastSwiftMigration = 0800;
-						TestTargetID = 1753B4351DAECC1B00E5D40F;
+					5E97D4321DF7693000136369 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = A96T689RCU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5E97D41E1DF7693000136369;
 					};
-					1753B4541DAECC1B00E5D40F = {
-						CreatedOnToolsVersion = 7.3;
-						LastSwiftMigration = 0800;
-						TestTargetID = 1753B4351DAECC1B00E5D40F;
+					5E97D43D1DF7693000136369 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = A96T689RCU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5E97D41E1DF7693000136369;
 					};
 				};
 			};
-			buildConfigurationList = 1753B4311DAECC1B00E5D40F /* Build configuration list for PBXProject "Squoir" */;
+			buildConfigurationList = 5E97D41A1DF7692F00136369 /* Build configuration list for PBXProject "Squoir" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -222,37 +271,60 @@
 				en,
 				Base,
 			);
-			mainGroup = 1753B42D1DAECC1B00E5D40F;
-			productRefGroup = 1753B4371DAECC1B00E5D40F /* Products */;
+			mainGroup = 5E97D4161DF7692F00136369;
+			productRefGroup = 5E97D4201DF7693000136369 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5E97D45C1DF76AB000136369 /* Products */;
+					ProjectRef = 5E97D45B1DF76AB000136369 /* GPUImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
-				1753B4351DAECC1B00E5D40F /* Squoir */,
-				1753B4491DAECC1B00E5D40F /* SquoirTests */,
-				1753B4541DAECC1B00E5D40F /* SquoirUITests */,
+				5E97D41E1DF7693000136369 /* Squoir */,
+				5E97D4321DF7693000136369 /* SquoirTests */,
+				5E97D43D1DF7693000136369 /* SquoirUITests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		5E97D4621DF76AB000136369 /* libGPUImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGPUImage.a;
+			remoteRef = 5E97D4611DF76AB000136369 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5E97D4641DF76AB000136369 /* GPUImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GPUImage.framework;
+			remoteRef = 5E97D4631DF76AB000136369 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
-		1753B4341DAECC1B00E5D40F /* Resources */ = {
+		5E97D41D1DF7693000136369 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1753B4441DAECC1B00E5D40F /* LaunchScreen.storyboard in Resources */,
-				1753B4411DAECC1B00E5D40F /* Assets.xcassets in Resources */,
-				1753B43F1DAECC1B00E5D40F /* Main.storyboard in Resources */,
+				5E97D42D1DF7693000136369 /* LaunchScreen.storyboard in Resources */,
+				5E97D42A1DF7693000136369 /* Assets.xcassets in Resources */,
+				5E97D4281DF7693000136369 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1753B4481DAECC1B00E5D40F /* Resources */ = {
+		5E97D4311DF7693000136369 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1753B4531DAECC1B00E5D40F /* Resources */ = {
+		5E97D43C1DF7693000136369 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -262,61 +334,65 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1753B4321DAECC1B00E5D40F /* Sources */ = {
+		5E97D41B1DF7693000136369 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C50A63471DB66B7D00712049 /* CameraPreviewView.swift in Sources */,
-				C50A63451DB66B5C00712049 /* PhotoCaptureDelegate.swift in Sources */,
-				1753B43C1DAECC1B00E5D40F /* ViewController.swift in Sources */,
-				1753B43A1DAECC1B00E5D40F /* AppDelegate.swift in Sources */,
+				5E97D4251DF7693000136369 /* ViewController.swift in Sources */,
+				5E97D4231DF7693000136369 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1753B4461DAECC1B00E5D40F /* Sources */ = {
+		5E97D42F1DF7693000136369 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1753B44F1DAECC1B00E5D40F /* SquoirTests.swift in Sources */,
+				5E97D4381DF7693000136369 /* SquoirTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1753B4511DAECC1B00E5D40F /* Sources */ = {
+		5E97D43A1DF7693000136369 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1753B45A1DAECC1B00E5D40F /* SquoirUITests.swift in Sources */,
+				5E97D4431DF7693000136369 /* SquoirUITests.swift in Sources */,
+				5EBC5AAA1DFCA73300ABB88A /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1753B44C1DAECC1B00E5D40F /* PBXTargetDependency */ = {
+		5E97D4351DF7693000136369 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1753B4351DAECC1B00E5D40F /* Squoir */;
-			targetProxy = 1753B44B1DAECC1B00E5D40F /* PBXContainerItemProxy */;
+			target = 5E97D41E1DF7693000136369 /* Squoir */;
+			targetProxy = 5E97D4341DF7693000136369 /* PBXContainerItemProxy */;
 		};
-		1753B4571DAECC1B00E5D40F /* PBXTargetDependency */ = {
+		5E97D4401DF7693000136369 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1753B4351DAECC1B00E5D40F /* Squoir */;
-			targetProxy = 1753B4561DAECC1B00E5D40F /* PBXContainerItemProxy */;
+			target = 5E97D41E1DF7693000136369 /* Squoir */;
+			targetProxy = 5E97D43F1DF7693000136369 /* PBXContainerItemProxy */;
+		};
+		5E97D4661DF76AB600136369 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPUImageFramework;
+			targetProxy = 5E97D4651DF76AB600136369 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1753B43D1DAECC1B00E5D40F /* Main.storyboard */ = {
+		5E97D4261DF7693000136369 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1753B43E1DAECC1B00E5D40F /* Base */,
+				5E97D4271DF7693000136369 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1753B4421DAECC1B00E5D40F /* LaunchScreen.storyboard */ = {
+		5E97D42B1DF7693000136369 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1753B4431DAECC1B00E5D40F /* Base */,
+				5E97D42C1DF7693000136369 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -324,7 +400,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1753B45C1DAECC1B00E5D40F /* Debug */ = {
+		5E97D4451DF7693000136369 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -336,10 +412,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -361,16 +440,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1753B45D1DAECC1B00E5D40F /* Release */ = {
+		5E97D4461DF7693000136369 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -382,10 +462,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -401,88 +484,99 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		1753B45F1DAECC1B00E5D40F /* Debug */ = {
+		5E97D4481DF7693000136369 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = S85YN963RT;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = A96T689RCU;
 				INFOPLIST_FILE = Squoir/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.scau.Squoir;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arlix.Squoir;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		1753B4601DAECC1B00E5D40F /* Release */ = {
+		5E97D4491DF7693000136369 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = S85YN963RT;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = A96T689RCU;
 				INFOPLIST_FILE = Squoir/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.scau.Squoir;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Arlix.Squoir;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
-		1753B4621DAECC1B00E5D40F /* Debug */ = {
+		5E97D44B1DF7693000136369 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A96T689RCU;
 				INFOPLIST_FILE = SquoirTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.arlix.SquoirTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Arlix.SquoirTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Squoir.app/Squoir";
 			};
 			name = Debug;
 		};
-		1753B4631DAECC1B00E5D40F /* Release */ = {
+		5E97D44C1DF7693000136369 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A96T689RCU;
 				INFOPLIST_FILE = SquoirTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.arlix.SquoirTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Arlix.SquoirTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Squoir.app/Squoir";
 			};
 			name = Release;
 		};
-		1753B4651DAECC1B00E5D40F /* Debug */ = {
+		5E97D44E1DF7693000136369 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A96T689RCU;
 				INFOPLIST_FILE = SquoirUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.arlix.SquoirUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = Arlix.SquoirUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Squoir;
 			};
 			name = Debug;
 		};
-		1753B4661DAECC1B00E5D40F /* Release */ = {
+		5E97D44F1DF7693000136369 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A96T689RCU;
 				INFOPLIST_FILE = SquoirUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.arlix.SquoirUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = Arlix.SquoirUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Squoir;
@@ -492,43 +586,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1753B4311DAECC1B00E5D40F /* Build configuration list for PBXProject "Squoir" */ = {
+		5E97D41A1DF7692F00136369 /* Build configuration list for PBXProject "Squoir" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1753B45C1DAECC1B00E5D40F /* Debug */,
-				1753B45D1DAECC1B00E5D40F /* Release */,
+				5E97D4451DF7693000136369 /* Debug */,
+				5E97D4461DF7693000136369 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1753B45E1DAECC1B00E5D40F /* Build configuration list for PBXNativeTarget "Squoir" */ = {
+		5E97D4471DF7693000136369 /* Build configuration list for PBXNativeTarget "Squoir" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1753B45F1DAECC1B00E5D40F /* Debug */,
-				1753B4601DAECC1B00E5D40F /* Release */,
+				5E97D4481DF7693000136369 /* Debug */,
+				5E97D4491DF7693000136369 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1753B4611DAECC1B00E5D40F /* Build configuration list for PBXNativeTarget "SquoirTests" */ = {
+		5E97D44A1DF7693000136369 /* Build configuration list for PBXNativeTarget "SquoirTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1753B4621DAECC1B00E5D40F /* Debug */,
-				1753B4631DAECC1B00E5D40F /* Release */,
+				5E97D44B1DF7693000136369 /* Debug */,
+				5E97D44C1DF7693000136369 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1753B4641DAECC1B00E5D40F /* Build configuration list for PBXNativeTarget "SquoirUITests" */ = {
+		5E97D44D1DF7693000136369 /* Build configuration list for PBXNativeTarget "SquoirUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1753B4651DAECC1B00E5D40F /* Debug */,
-				1753B4661DAECC1B00E5D40F /* Release */,
+				5E97D44E1DF7693000136369 /* Debug */,
+				5E97D44F1DF7693000136369 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1753B42E1DAECC1B00E5D40F /* Project object */;
+	rootObject = 5E97D4171DF7692F00136369 /* Project object */;
 }
